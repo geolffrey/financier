@@ -3,6 +3,7 @@
     "description": "A Node.js module that helps with calculations concerning stocks and portfolios.",
     "author": "Alexander Martin <alex@martinexp.com>",
     "version": "0.1.0",
+    "homepage": "https://github.com/bridge-usa/financier",
     "repository": {
         "type": "git",
         "url": "https://github.com/bridge-usa/financier.git"
