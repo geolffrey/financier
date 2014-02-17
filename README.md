@@ -12,6 +12,8 @@ was built to calculate the risk in the Bridge Jump Portfolio Management game.
 
 `$ npm install financier`
 
+Financier uses the Sylvester matrix math library for calculations. (https://github.com/NaturalNode/node-sylvester)  NPM will automattically install Sylvester as a dependency.
+
 ```js
 var financier = require('financier');
 var Stock = financier.Stock;
@@ -19,6 +21,8 @@ var Portfolio = financier.Portfolio;
 ```
 
 ## Usage
+Here is an example featuring comprehensive usage of financier.
+
 ```js
 // Load financier.
 var financier = require('financier');
