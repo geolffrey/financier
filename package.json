@@ -1,0 +1,17 @@
+{
+    "name": "financier",
+    "description": "A Node.js module that helps with calculations concerning stocks and portfolios.",
+    "author": "Alexander Martin <alex@martinexp.com>",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bridge-usa/financier.git"
+    },
+    "keywords": [
+        "finance", "portfolio", "stock", "accounting", "risk", "money"
+    ],
+    "dependencies": {
+        "sylvester": ">= 0.0.21"
+    },
+    "license": "MIT"
+}
