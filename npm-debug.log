@@ -1,0 +1,130 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /home/bridge/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/tmp.tgz
+12 verbose folder .
+13 info prepublish financier@0.1.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /home/bridge/.npm/1f1177db-tar.lock
+16 silly lockFile b485f984-94788-0-6863224098924547-tmp-tgz tar:///home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/tmp.tgz
+17 verbose lock tar:///home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/tmp.tgz /home/bridge/.npm/b485f984-94788-0-6863224098924547-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile b485f984-94788-0-6863224098924547-tmp-tgz tar:///home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/tmp.tgz
+21 silly lockFile b485f984-94788-0-6863224098924547-tmp-tgz tar:///home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/tmp.tgz
+22 verbose tar unpack /home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/tmp.tgz
+23 silly lockFile 75e2f4c5-94788-0-6863224098924547-package tar:///home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/package
+24 verbose lock tar:///home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/package /home/bridge/.npm/75e2f4c5-94788-0-6863224098924547-package.lock
+25 silly lockFile b485f984-94788-0-6863224098924547-tmp-tgz tar:///home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/tmp.tgz
+26 verbose lock tar:///home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/tmp.tgz /home/bridge/.npm/b485f984-94788-0-6863224098924547-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+32 silly gunzTarPerm extractEntry financier.js
+33 silly gunzTarPerm modified mode [ 'financier.js', 436, 420 ]
+34 silly lockFile 75e2f4c5-94788-0-6863224098924547-package tar:///home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/package
+35 silly lockFile 75e2f4c5-94788-0-6863224098924547-package tar:///home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/package
+36 silly lockFile b485f984-94788-0-6863224098924547-tmp-tgz tar:///home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/tmp.tgz
+37 silly lockFile b485f984-94788-0-6863224098924547-tmp-tgz tar:///home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/tmp.tgz
+38 verbose tar pack [ '/home/bridge/.npm/financier/0.1.0/package.tgz',
+38 verbose tar pack   '/home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/package' ]
+39 verbose tarball /home/bridge/.npm/financier/0.1.0/package.tgz
+40 verbose folder /home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/package
+41 silly lockFile 75e2f4c5-94788-0-6863224098924547-package tar:///home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/package
+42 verbose lock tar:///home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/package /home/bridge/.npm/75e2f4c5-94788-0-6863224098924547-package.lock
+43 silly lockFile 56263bd7--npm-financier-0-1-0-package-tgz tar:///home/bridge/.npm/financier/0.1.0/package.tgz
+44 verbose lock tar:///home/bridge/.npm/financier/0.1.0/package.tgz /home/bridge/.npm/56263bd7--npm-financier-0-1-0-package-tgz.lock
+45 silly lockFile 75e2f4c5-94788-0-6863224098924547-package tar:///home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/package
+46 silly lockFile 75e2f4c5-94788-0-6863224098924547-package tar:///home/bridge/tmp/npm-7044-p6JZ-bTF/1392629894788-0.6863224098924547/package
+47 silly lockFile 56263bd7--npm-financier-0-1-0-package-tgz tar:///home/bridge/.npm/financier/0.1.0/package.tgz
+48 silly lockFile 56263bd7--npm-financier-0-1-0-package-tgz tar:///home/bridge/.npm/financier/0.1.0/package.tgz
+49 silly lockFile 5ae98866-idge-npm-financier-0-1-0-package /home/bridge/.npm/financier/0.1.0/package
+50 verbose lock /home/bridge/.npm/financier/0.1.0/package /home/bridge/.npm/5ae98866-idge-npm-financier-0-1-0-package.lock
+51 silly lockFile 5ae98866-idge-npm-financier-0-1-0-package /home/bridge/.npm/financier/0.1.0/package
+52 silly lockFile 5ae98866-idge-npm-financier-0-1-0-package /home/bridge/.npm/financier/0.1.0/package
+53 verbose tar unpack /home/bridge/.npm/financier/0.1.0/package.tgz
+54 silly lockFile d3018b46-idge-npm-financier-0-1-0-package tar:///home/bridge/.npm/financier/0.1.0/package
+55 verbose lock tar:///home/bridge/.npm/financier/0.1.0/package /home/bridge/.npm/d3018b46-idge-npm-financier-0-1-0-package.lock
+56 silly lockFile 56263bd7--npm-financier-0-1-0-package-tgz tar:///home/bridge/.npm/financier/0.1.0/package.tgz
+57 verbose lock tar:///home/bridge/.npm/financier/0.1.0/package.tgz /home/bridge/.npm/56263bd7--npm-financier-0-1-0-package-tgz.lock
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry README.md
+61 silly gunzTarPerm extractEntry financier.js
+62 silly lockFile d3018b46-idge-npm-financier-0-1-0-package tar:///home/bridge/.npm/financier/0.1.0/package
+63 silly lockFile d3018b46-idge-npm-financier-0-1-0-package tar:///home/bridge/.npm/financier/0.1.0/package
+64 silly lockFile 56263bd7--npm-financier-0-1-0-package-tgz tar:///home/bridge/.npm/financier/0.1.0/package.tgz
+65 silly lockFile 56263bd7--npm-financier-0-1-0-package-tgz tar:///home/bridge/.npm/financier/0.1.0/package.tgz
+66 verbose chmod /home/bridge/.npm/financier/0.1.0/package.tgz 644
+67 verbose chown /home/bridge/.npm/financier/0.1.0/package.tgz [ 502, 502 ]
+68 silly lockFile 3a52ce78- .
+69 silly lockFile 3a52ce78- .
+70 silly publish { name: 'financier',
+70 silly publish   description: 'A Node.js module that helps with calculations concerning stocks and portfolios.',
+70 silly publish   author: { name: 'Alexander Martin', email: 'alex@martinexp.com' },
+70 silly publish   version: '0.1.0',
+70 silly publish   homepage: 'https://github.com/bridge-usa/financier',
+70 silly publish   repository:
+70 silly publish    { type: 'git',
+70 silly publish      url: 'https://github.com/bridge-usa/financier.git' },
+70 silly publish   keywords: [ 'finance', 'portfolio', 'stock', 'accounting', 'risk', 'money' ],
+70 silly publish   dependencies: { sylvester: '>= 0.0.21' },
+70 silly publish   license: 'MIT',
+70 silly publish   bugs: { url: 'https://github.com/bridge-usa/financier/issues' },
+70 silly publish   main: 'financier.js',
+70 silly publish   directories: { doc: 'docs' },
+70 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+70 silly publish   readme: 'financier\n=========\n\nA Node.js module that helps with calculations concerning stocks and portfolios.\n\n## Introduction\n\nFinancier is a simple, object-oriented way of managing a portfolio.  This module\nwas built to calculate the risk in the Bridge Jump Portfolio Management game.\n\n## Installation\n\n`$ npm install financier`\n\nFinancier uses the [Sylvester matrix math library](https://github.com/NaturalNode/node-sylvester)\nfor calculations.  NPM will automatically install Sylvester as a dependency.\n\n```js\nvar financier = require(\'financier\');\nvar Stock = financier.Stock;\nvar Portfolio = financier.Portfolio;\n```\n\n## Usage\nHere is an example featuring comprehensive usage of financier.\n\n```js\n// Load financier.\nvar financier = require(\'financier\');\nvar Stock = financier.Stock;\nvar Portfolio = financier.Portfolio;\n\nvar stocks = {};\n// A bit of pseudo-code to load return data from a CSV.\nvar stockData = CSV.load(\'nasdaq-historical-returns.csv\');\n\n// Initialize the stocks.\nfor (var stock in stockData) {\n    stocks[stock] = new Stock(stock);\n    for (var tick in stockData[stock]) {\n        stocks[stock].push(tick.open, tick.close, true);\n    }\n    stocks[stock].calculateAverage();\n}\n\n// Gather the securities for the portfolio.\nvar securities = [\n    {\n        stock: stocks.AAPL,\n        value: 10234.34\n    },\n    {\n        stock: stocks.GOOG,\n        value: 63464.53\n    },\n    {\n        stock: stocks.MSFT,\n        value: 4352.2\n    },\n    {\n        stock: stocks.AIG,\n        value: 630.99,\n    }, {\n        stock: stocks.C,\n        value: 902.11\n    }\n];\n\n// Build the portfolio.\nvar clientPortfolio = new Portfolio();\nfor (var i = 0; i < securities.length; i++) {\n    var security = securities[i];\n    clientPortfolio.addStock(security.stock, security.value, true);\n}\n\n// Spit out the risk.\nconsole.log(clientPortfolio.calculateRisk());\n```\n\n## API\n\n### Stock(_String_ ticker)\n\nUsed to calculate returns and averages for individual stocks.  The parameter\n`ticker` determines the stock symbol for the stock.\n\n```js\nvar AAPL = new Stock(\'AAPL\');\n```\n#### Properties\n\n* __ticker__ - `String` The stock symbol.\n* __returns__ - `Array` The array of tick returns for the stock.\n* __average__ - `Float` The average of all the tick returns.\n* __value__ - `Float` The market value of the stock. (Initialized when added to a\nportfolio.)\n* __weight__ - `Float` The weight of the stock in comparison to the total portfolio\nmarket value.  (Initialized when added to a portfolio.)\n\n#### Stock.push(_Float_ open, _Float_ close, _Boolean_ _[Opt]_ wait)\nAdd a tick of data to the stock history.  This new return is stored in\n`Stock.returns`.  Default behaviour immediately recalculates\nthe overall average on returns.\n\nThe parameters `open` and `close` are `floats` representing the price of the stock.\nIf `wait` is `true`, the average is not calculated.\n\n```js\n// Push a return of 5.8 to the list of returns.  The overall average return will\n// be automagically calculated.\nAAPL.push(106.5, 112.3);\n```\n\n#### _Float_ Stock.calculateAverage()\nCalculate the average of all the returns.  This new average is both returned and\nstored in `Stock.average`.\n\nIt is only necesarry to call this function if you are adding returns in bulk.\n\n```js\nfunction randomValue() {\n    return 100 + Math.random() * 30;\n}\n\n// Simulate adding thousands of returns to a stock.\nfor (var i = 0; i < 10000; i++) {\n    // Push the data, but hold off on calculating the average.\n    AAPL.push(randomValue(), randomValue(), true);\n}\n\n// Now calculate the overall average.\nAAPL.calculateAverage();\n```\n\n### Portfolio()\n\nKeeps data on a portfolio, and has methods to calculate its attributes.\n\n```js\nvar clientPortfolio = new Portfolio();\n```\n\n#### Properties\n\n* __stocks__ - `Object` Stocks included in the portfolio.\n* __value__ - `Float` Total market value for the stock.\n* __risk__ - `Flat` Risk for the entire portfolio.\n* __cache__ - `Cache` Cache of portfolio securities.\n\n#### Portfolio.addStock(_Stock_ stock, _Float_ value, _Boolean_ _[Opt]_ clone)\nAdd a stock to the portfolio.  This stock is stored in the `Portfolio.stocks`.\n`Stock.weight` for all securities are automagically recalculated.\n\nThe parameter `stock` is the `Stock` object being added.  `value` represents the\nmarket value for the security as a `float`.  Currency should be kept consistent.\nIf `clone` is `true`, a new `Stock` is created with identical `Stock.ticker`,\n`Stock.return`, and `Stock.average` properties.\n\n__IMPORTANT:__ If stocks are reused in multiple portfolios, or need to be kept\nindependent of the portfolio, they _MUST_ be cloned to prevent discrepencies with\nhow JavaScript passes objects by reference.\n\n```js\n// Add AAPL to multiple client portfolios:\nclientPortfolio.addStock(AAPL, 100323.33, true);\notherClientPortfolio.addStock(AAPL, 1483.63, true);\n\nvar open = 135.3;\nvar close = 123.53;\n\n// If new return history needs to be added, it must be done individually.\nAAPL.push(open, close);\nclientPortfolio.stocks.AAPL.push(open, close);\notherClientPortfolio.stocks.AAPL.push(open, close);\n```\n\n#### Portfolio.removeStock(_Stock|String_ stock)\nRemove a stock from the portfolio.  `Portfolio.stocks` is updated.  Additionally,\n`Stock.weight` for all stocks are recalculated.\n\n```js\n// Both of these are valid:\nclientPortfolio.removeStock(\'AAPL\');\nclientPortfolio.removeStock(AAPL);\n```\n\n#### Portfolio.updateStock(_Stock|String_ stock, _Float_ value)\nUpdate a stock with a new market value.  Weights for all the stocks are recalculated.\nHowever, the new value is not validated.  Stocks are not deleted if the value is 0 or\nnegative.\n\n#### _Array_ Portfolio.getStockTickers()\nGet the tickers for all the stocks in the portfolio.\n\n#### _Boolean_ Portfolio.hasStock(_Stock|String_ stock)\nChecks if the stock is currently in the portfolio.\n\n#### _Float_ Portfolio.calculateTotalValue()\nCalculate the total market value of the portfolio.  `Portfolio.value` is updated, as\nwell as returned.  This function is called everytime `Portfolio.calculateWeights()`\nis called.\n\n#### Portfolio.calculateWeights()\nCalculate and update `Stock.weight` for all securities in the portfolio.  This\nfunction is called whenever a securities in the portfolio are altered.\n\n#### _Float_ Portfolio.calculateCovariance(_Stock_ stockA, _Stock_ stockB)\nCalculate the coveriance between two stocks.  If `stockA` and `stockB` are the same\ninstance of `Stock` the function returns 1 by definition.\n\nWhile it is better to create a `Portfolio` to calculate covariance, this function can\nbe called to examine individual stocks.\n\n```js\nvar GOOG = new Stock(\'GOOG\');\nvar AAPL = new Stock(\'AAPL\');\n\n// Pretend that we have filled out the stocks with tick history...\nGOOG.push(...);\nAAPL.push(...);\n\n// Find the covariance between Google and Apple.\nvar covariance = Portfolio.calculateCovariance(GOOG, AAPL);\n```\n\n#### _Sylvester.Matrix_ Portfolio.createWeightMatrix()\nCreate the matrix of security weights.  We do not use `Sylvestor.Vector` because it does\nnot have a transpose method.  `Portfolio.calculateRisk()` calls this function.\n\n#### _Sylvester.Matrix_ Portfolio.createCovarianceMatrix()\nCreate the covariance matrix of all securities.  `Portfolio.caulcateCovariance()` is called\nfor every possible pair of securities.  `Portfolio.calculateRisk()` calls this function.\n\n#### _Float_ Portfolio.calculateRisk()\nCalculate risk for the entire portfolio.  We first check against `Portfolio.cache` to prevent any\nunnecessary work (i.e. securities have not been altered since last time the risk was calculated).\n`Portfolio.cache` and `Portfolio.risk` are then updated.\n',
+70 silly publish   readmeFilename: 'README.md',
+70 silly publish   _id: 'financier@0.1.0',
+70 silly publish   dist: { shasum: '0e12205069009634289188ba1683d7d3f874b075' },
+70 silly publish   _from: '.' }
+71 verbose url raw financier
+72 verbose url resolving [ 'https://registry.npmjs.org/', './financier' ]
+73 verbose url resolved https://registry.npmjs.org/financier
+74 info trying registry request attempt 1 at 01:38:14
+75 http PUT https://registry.npmjs.org/financier
+76 http 409 https://registry.npmjs.org/financier
+77 verbose url raw financier
+78 verbose url resolving [ 'https://registry.npmjs.org/', './financier' ]
+79 verbose url resolved https://registry.npmjs.org/financier
+80 info trying registry request attempt 1 at 01:38:15
+81 http GET https://registry.npmjs.org/financier
+82 http 200 https://registry.npmjs.org/financier
+83 error publish fail Cannot publish over existing version.
+83 error publish fail Update the 'version' field in package.json and try again.
+83 error publish fail
+83 error publish fail If the previous version was published in error, see:
+83 error publish fail     npm help unpublish
+83 error publish fail
+83 error publish fail To automatically increment version numbers, see:
+83 error publish fail     npm help version
+84 error System Linux 2.6.32-431.3.1.el6.x86_64
+85 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+86 error cwd /home/bridge/Utils/financier
+87 error node -v v0.10.25
+88 error npm -v 1.3.24
+89 error code EPUBLISHCONFLICT
+90 verbose exit [ 1, true ]
