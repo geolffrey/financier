@@ -1,4 +1,4 @@
-financier
+Financier
 =========
 
 A Node.js module that helps with calculations concerning stocks and portfolios.
@@ -27,7 +27,7 @@ var Portfolio = financier.Portfolio;
 ```
 
 ## Usage
-Here is an example featuring comprehensive usage of financier.
+Here is an example featuring comprehensive usage of Financier.
 
 ```js
 // Load financier.
@@ -65,7 +65,8 @@ var securities = [
     {
         stock: stocks.AIG,
         value: 630.99,
-    }, {
+    },
+    {
         stock: stocks.C,
         value: 902.11
     }
@@ -104,8 +105,8 @@ market value.  (Initialized when added to a portfolio.)
 
 #### Stock.push(_Float_ open, _Float_ close, _Boolean_ _[Opt]_ wait)
 Add a tick of data to the stock history.  This new return is stored in
-`Stock.returns`.  Default behaviour immediately recalculates
-the overall average on returns.
+`Stock.returns`.  Default behaviour immediately recalculates the overall average on
+returns.
 
 The parameters `open` and `close` are `floats` representing the price of the stock.
 If `wait` is `true`, the average is not calculated.
@@ -120,7 +121,7 @@ AAPL.push(106.5, 112.3);
 Calculate the average of all the returns.  This new average is both returned and
 stored in `Stock.average`.
 
-It is only necesarry to call this function if you are adding returns in bulk.
+It is only necessary to call this function if you are adding returns in bulk.
 
 ```js
 function randomValue() {
@@ -207,10 +208,10 @@ is called.
 
 #### Portfolio.calculateWeights()
 Calculate and update `Stock.weight` for all securities in the portfolio.  This
-function is called whenever a securities in the portfolio are altered.
+function is called whenever securities in the portfolio are altered.
 
 #### _Float_ Portfolio.calculateCovariance(_Stock_ stockA, _Stock_ stockB)
-Calculate the coveriance between two stocks.  If `stockA` and `stockB` are the same
+Calculate the covariance between two stocks.  If `stockA` and `stockB` are the same
 instance of `Stock` the function returns 1 by definition.
 
 While it is better to create a `Portfolio` to calculate covariance, this function can
