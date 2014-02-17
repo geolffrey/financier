@@ -39,6 +39,7 @@ Add a tick of data to the stock history.  This new return is stored in the
 `returns` property for the stock.  Default behaviour immediately recalculates
 the overall average on returns.
 
+The parameters `open` and `close` are `floats` representing the price of the stock.
 If `wait` is `true`, the average is not calculated.
 
 ```js
@@ -54,16 +55,59 @@ stored in the `average` property for the stock.
 It is only necesarry to call this function if you are adding returns in bulk.
 
 ```js
-// Pretend to add thousands of returns to a stock.
-for (var i = 0; i < 10000; i++) {
-    function randomValue() {
-        100 + Math.random() * 30;
-    }
+function randomValue() {
+    return 100 + Math.random() * 30;
+}
 
+// Simulate adding thousands of returns to a stock.
+for (var i = 0; i < 10000; i++) {
     // Push the data, but hold off on calculating the average.
-    AAPL.push(randomValue(), randomValue(), true)
+    AAPL.push(randomValue(), randomValue(), true);
 }
 
 // Now calculate the overall average.
 AAPL.calculateAverage();
+```
+
+### Portfolio()
+
+Keeps data on a portfolio, and has methods to calculate its attributes.
+
+```js
+var clientPortfolio = new Portfolio();
+```
+
+#### Properties
+
+* __stocks__ - `Object` Stocks included in the portfolio.
+* __value__ - `Float` Total market value for the stock.
+* __risk__ - `Flat` Risk for the entire portfolio.
+* __cache__ - `Cache` Cache of portfolio securities.
+
+#### Portfolio.addStock(_Stock_ stock, _Float_ value, _Boolean_ _[Opt]_ clone)
+Add a stock to the portfolio.  This stock is stored in the `stocks` property
+for the portfolio.  Relative weights for the entire portfolio are automagically
+recalculated.
+
+The parameter `stock` is the `Stock` object being added.  `value` represents the
+market value for the security as a `float`.  Currency should be kept consistent.
+If `clone` is `true`, a new `Stock` is created with identical `ticker`, `return`,
+and `average` properties.
+
+__IMPORTANT:__ If stocks are reused in multiple portfolios, or need to be kept
+independent of the portfolio, they _MUST_ be cloned to prevent discrepencies with
+how JavaScript passes objects by reference.
+
+```js
+// Add AAPL to multiple client portfolios:
+clientPortfolio.addStock(AAPL, 100323.33, true);
+otherClientPortfolio.addStock(AAPL, 1483.63, true);
+
+var open = 135.3;
+var close = 123.53;
+
+// If new return history needs to be added, it must be done individually.
+AAPL.push(open, close);
+clientPortfolio.stocks.AAPL.push(open, close);
+otherClientPortfolio.stocks.AAPL.push(open, close);
 ```
