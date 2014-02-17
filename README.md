@@ -26,3 +26,13 @@ Used to calculate returns and averages for individual stocks.  The parameter
 ```js
 var AAPL = new Stock('AAPL');
 ```
+#### Properties
+
+##### ticker
+`String` The stock symbol.
+
+##### returns
+`Array` The array of tick returns for the stock.
+
+##### average
+`Float` The average of all the tick returns.
