@@ -20,7 +20,7 @@ var Portfolio = financier.Portfolio;
 
 ## API
 
-### Stock(`String` ticker)
+### Stock(_String_ ticker)
 
 Used to calculate returns and averages for individual stocks.  The parameter
 `ticker` determines the stock symbol for the stock.
@@ -30,13 +30,11 @@ var AAPL = new Stock('AAPL');
 ```
 #### Properties
 
-**ticker** - `String` The stock symbol.
++__ticker__ - `String` The stock symbol.
++__returns__ - `Array` The array of tick returns for the stock.
++__average__ - `Float` The average of all the tick returns.
 
-**returns** - `Array` The array of tick returns for the stock.
-
-**average** - `Float` The average of all the tick returns.
-
-#### Stock.push(`Float` open, `Float` close, `Boolean` `Optional` wait)
+### Stock.push(_Float_ open, _Float_ close, _Boolean_ __Optional__ wait)
 Add a tick of data to the stock history.  This new return is stored in the
 `returns` property for the stock.  Default behaviour immediately recalculates
 the overall average on returns.
