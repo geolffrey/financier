@@ -46,3 +46,24 @@ If `wait` is `true`, the average is not calculated.
 // be automagically calculated.
 AAPL.push(106.5, 112.3);
 ```
+
+#### _Float_ Stock.calculateAverage()
+Calculate the average of all the returns.  This new average is both returned and
+stored in the `average` property for the stock.
+
+It is only necesarry to call this function if you are adding returns in bulk.
+
+```js
+// Pretend to add thousands of returns to a stock.
+for (var i = 0; i < 10000; i++) {
+    function randomValue() {
+        100 + Math.random() * 30;
+    }
+
+    // Push the data, but hold off on calculating the average.
+    AAPL.push(randomValue(), randomValue(), true)
+}
+
+// Now calculate the overall average.
+AAPL.calculateAverage();
+```
