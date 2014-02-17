@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/bridge-usa/financier/issues"
   },
-  "main": "risk.js",
+  "main": "financier.js",
   "directories": {
     "doc": "docs"
   },
