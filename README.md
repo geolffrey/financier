@@ -12,7 +12,8 @@ was built to calculate the risk in the Bridge Jump Portfolio Management game.
 
 `$ npm install financier`
 
-Financier uses the Sylvester matrix math library for calculations. (https://github.com/NaturalNode/node-sylvester)  NPM will automattically install Sylvester as a dependency.
+Financier uses the [Sylvester matrix math library](https://github.com/NaturalNode/node-sylvester)
+for calculations.  NPM will automatically install Sylvester as a dependency.
 
 ```js
 var financier = require('financier');
@@ -91,7 +92,6 @@ var AAPL = new Stock('AAPL');
 * __ticker__ - `String` The stock symbol.
 * __returns__ - `Array` The array of tick returns for the stock.
 * __average__ - `Float` The average of all the tick returns.
-
 * __value__ - `Float` The market value of the stock. (Initialized when added to a
 portfolio.)
 * __weight__ - `Float` The weight of the stock in comparison to the total portfolio
