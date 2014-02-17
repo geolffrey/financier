@@ -10,6 +10,9 @@ was built to calculate the risk in the [Bridge Jump Portfolio Management game](h
 
 Please feel free to request any features.  Code contributions are always welcome!
 
+## Mirrors
+[Bitbucket](https://bitbucket.org/bridge-usa/financier)
+
 ## Installation
 
 `$ npm install financier`
