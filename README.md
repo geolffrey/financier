@@ -150,7 +150,7 @@ var clientPortfolio = new Portfolio();
 
 * __stocks__ - `Object` Stocks included in the portfolio.
 * __value__ - `Float` Total market value for the stock.
-* __risk__ - `Flat` Risk for the entire portfolio.
+* __risk__ - `Float` Risk for the entire portfolio.
 * __cache__ - `Cache` Cache of portfolio securities.
 
 #### Portfolio.addStock(_Stock_ stock, _Float_ value, _Boolean_ _[Opt]_ clone)
