@@ -1,12 +1,12 @@
 {
   "name": "financier",
   "description": "A Node.js module that helps with calculations concerning stocks and portfolios.",
-  "author": "Alexander Martin <alex@martinexp.com>",
+  "author": "Alexander Martin <alex@suitupalex.com>",
   "version": "0.1.1",
-  "homepage": "https://github.com/bridge-usa/financier",
+  "homepage": "https://github.com/suitupalex/financier",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bridge-usa/financier.git"
+    "url": "https://github.com/suitupalex/financier.git"
   },
   "keywords": [
     "finance",
@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bridge-usa/financier/issues"
+    "url": "https://github.com/suitupalex/financier/issues"
   },
   "main": "financier.js",
   "directories": {
