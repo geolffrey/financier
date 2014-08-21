@@ -5,9 +5,7 @@ A Node.js module that helps with calculations concerning stocks and portfolios.
 
 ## Introduction
 
-Financier is a simple, object-oriented way of managing a portfolio.  This module
-was built to calculate the risk in the [Bridge Jump Portfolio Management game](http://jump.bridge-usa.com).
-
+Financier is a simple, object-oriented way of managing a portfolio.
 Please feel free to request any features.  Code contributions are always welcome!
 
 ## Mirrors
