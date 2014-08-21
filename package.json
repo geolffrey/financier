@@ -2,7 +2,7 @@
   "name": "financier",
   "description": "A Node.js module that helps with calculations concerning stocks and portfolios.",
   "author": "Alexander Martin <alex@suitupalex.com>",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/suitupalex/financier",
   "repository": {
     "type": "git",
